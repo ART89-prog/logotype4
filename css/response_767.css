@@ -1699,6 +1699,7 @@
         position: relative;
     }
     .calendar_item-index {
+        display: block;
         position: absolute;
         top: 1px;
         right: calc(50% - 21px);
@@ -1724,20 +1725,17 @@
         top: 14px;
         right: 9px;
     }
-    .modal-calendar_gray .webinar-modal_item {
-        background: #F2F2F2;
+    .webinar-modal_item.gray {
+        background: #F2F2F2;        
     }
-    .modal-calendar_gray .webinar-modal_item-title {
+    .webinar-modal_item.gray .webinar-modal_item-title {
         color: #828282;
     }
-    .modal-calendar_gray .webinar-modal_item-text {
+    .webinar-modal_item.gray .webinar-modal_item-text {
         color: #BDBDBD;
     }
-    .modal-calendar_gray .webinar-modal_item {
-        padding: 9px 10px 11px;
-    }
     .calendar_item:hover .calendar_item-date {
-        color: #0701BF;        
+        color: var(--main_color);        
     }
     .calendar_item:hover .calendar_item-date::before {
         background: none;
