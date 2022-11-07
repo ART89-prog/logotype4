@@ -16419,6 +16419,9 @@ background: #64C841;
     border-radius: 15px; 
     position: relative;
     padding: 20px 20px 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .training-course_item::before {
     position: absolute;
