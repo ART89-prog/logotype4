@@ -1803,4 +1803,13 @@
     }
 
 
+    
+    /* training-course */
+    .training-course_items > * {
+        width: calc(100%/2 - 25px);
+    }
+    .training-course .page_title {
+        margin-bottom: 35px;
+    }
+
 }
