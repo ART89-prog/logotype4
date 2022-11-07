@@ -16416,7 +16416,7 @@ background: #64C841;
 }
 .training-course_item {
     background: #FFFFFF;
-    border-radius: 15px; 
+    border-radius: 0 15px 15px 15px; 
     position: relative;
     padding: 20px 20px 15px 20px;
     display: flex;
@@ -16453,6 +16453,8 @@ background: #64C841;
     letter-spacing: -0.3px;
     margin-bottom: 9px;
     max-width: 240px;
+    text-decoration: none;
+    color: #020027;
 }
 .training-course_item-text {
     font-weight: 400;
@@ -16481,6 +16483,7 @@ background: #64C841;
     height: 55px;
     cursor: pointer;  
     position: relative; 
+    text-decoration: none;
 }
 .training-course_item-image img {
     width: 100%;
