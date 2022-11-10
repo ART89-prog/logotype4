@@ -7825,7 +7825,7 @@ aside .menu .sub_menu a.active
 }
 
 
-.dialog .message .prompt .text
+/* .dialog .message .prompt .text
 {
     color: #061058;
     font-size: 16px;
@@ -7842,7 +7842,7 @@ aside .menu .sub_menu a.active
 
     border-radius: 21px;
     background: #d6dfff;
-}
+} */
 
 
 .dialog .message.answer
@@ -16551,4 +16551,95 @@ background: #64C841;
 }
 .training-course_item-image:hover .training-course_item-info {
     display: block;
+}
+
+
+.dialog .message .prompt .prompt-box {
+    display: none;
+}
+.dialog .message .prompt .text {
+    display: flex;
+    margin-top: 10px;
+}
+.dialog .message .prompt .text-information {
+    width: 368px;
+    background: #ECEBF5;
+    border: 1px solid #9A97B8;
+    border-radius: 21px;
+    padding: 15px;
+    text-align: start;
+}
+.dialog .message .prompt .text .name {
+    color: #9396B2;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 5px;
+}
+.dialog .message .prompt .text .info-hint {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 135%;
+    letter-spacing: -0.95px;
+    color: #75799C;
+}
+
+.dialog .message .prompt .likes {
+    display: flex;
+}
+.dialog .message .prompt .likes button {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #ECEBF5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 9px;
+    padding: 6px;
+}
+.dialog .message .prompt .likes .icon {
+    width: 16px;
+    height: 16px;
+    fill: #64698F;
+}
+.dialog .message .prompt .likes .like.active {
+    background: #5CC652;
+}
+.dialog .message .prompt .likes .dislike.active {
+    background: #F23E3E;
+}
+.dialog .message .prompt .likes .like.active .icon {
+    fill: #fff;
+}
+.dialog .message .prompt .likes .dislike.active .icon {
+    fill: #fff;
+}
+.correction_modal-form textarea::-webkit-input-placeholder {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #818093;
+}
+.correction_modal-form textarea::-moz-placeholder {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #818093;
+}
+.correction_modal-form textarea:-moz-placeholder {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #818093;
+}
+.correction_modal-form textarea:-ms-input-placeholder {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #818093;
 }
