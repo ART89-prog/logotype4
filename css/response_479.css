@@ -854,6 +854,11 @@
     }
 
 
+    .webinar-test_wrapper-title br {
+        display: none;
+    }
+
+
 
 
 }
