@@ -1754,11 +1754,6 @@
 
 
     /* webinar4.html */
-
-
-    .webinar-test {
-        padding: 20px;
-    }
     .webinar a.page_title {
         font-size: 22px;
         margin-bottom: 0;
@@ -1829,7 +1824,7 @@
         align-items: flex-start;
     }
     .webinar-test_top {
-        margin-left: 0px;
+        margin-left: 20px;
         margin-right: 0px;
         margin-bottom: 0;
         margin-top: 20px;

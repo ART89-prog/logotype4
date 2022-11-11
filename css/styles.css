@@ -11041,6 +11041,7 @@ footer .contacts .val a
     display: block;
 
     width: 111px;
+    height: 111px;
     margin: 0 auto 28px;
 }
 
@@ -15831,6 +15832,8 @@ background: #64C841;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 .webinar a.page_title {
    display: flex;
@@ -15877,7 +15880,6 @@ background: #64C841;
 }
 .webinar-test_top {
     margin-left: 24px;
-    margin-right: 24px;
 }
 .webinar-test_status {
     position: absolute;
