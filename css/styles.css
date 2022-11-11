@@ -15869,7 +15869,8 @@ background: #64C841;
     position: relative;
     background: var(--main_color);
     border-radius: 16px;
-    padding: 8px 25px;
+    padding: 8px 20px;
+    width: 128px;
 }
 .webinar-test_right .webinar-test_link {
     margin-left: 11px;
