@@ -16687,11 +16687,11 @@ background: #64C841;
 }
 
 
-#modal_course{
+.modal_course{
     background: #fff;
 }
 
-#modal_course .icon {
+.modal_course .icon {
     width: 190px;
     height: 187px;
 }

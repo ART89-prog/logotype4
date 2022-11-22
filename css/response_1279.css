@@ -1115,7 +1115,7 @@
 
     .dialog .head
     {
-        padding: 22px;
+        /* padding: 22px; */
     }
 
     .dialog .head .person
@@ -1555,6 +1555,12 @@
         width: calc(100%/2 - 20px);
         margin-left: 20px;
         margin-bottom: 20px;
+    }
+
+    .dialog .prompt_text, 
+    .dialog .error_text, 
+    .dialog .success_text {
+        padding: 0 24px;
     }
 
 
