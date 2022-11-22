@@ -4,6 +4,12 @@ $(() => {
 
 	//tippy('[data-tippy-content]');
 
+	$('body').on('click', '.text_block_show_more', function (e) {
+		e.preventDefault()
+		$(".text_block_hide").addClass("active");
+		$(this).hide();
+	});
+
 	$('body').on('click', '.results .arrow', function (e) {
 		e.preventDefault()
 		$(this).parent().next().slideToggle();
@@ -548,7 +554,7 @@ $(() => {
 	})
 
 
-	$('body').on('click', '.dialog .image_wrap .prompt_btn', function (e) {
+	$('body').on('click', '.dialog .prompt_btn', function (e) {
 		e.preventDefault()
 
 		$('.dialog .image_wrap .image .answer').addClass('show')
@@ -622,14 +628,26 @@ $(() => {
 		Fancybox.show([{
 			src: '#confirm_modal2',
 			type: 'inline'
-		}])
+		}]);
+		let timerId = setInterval(() => $("#time_counter").html($("#time_counter").html()-1), 1000);
+
+		// остановить вывод через 5 секунд
+		setTimeout(() => { clearInterval(timerId); Fancybox.close(); }, 45000);
+	}
+
+
+	if ($('#modal_course').length) {
+		Fancybox.show([{
+			src: '#modal_course',
+			type: 'inline'
+		}]);		
 	}
 
 
 
 
 	// Всплывающие окна
-	$('body').on('click', '.details_item-dialog-link', function (e) {
+	$('body').on('click', '.details_item-dialog-link, .modal_content', function (e) {
 		e.preventDefault()
 
 		Fancybox.close()
