@@ -1832,4 +1832,37 @@
     }
 
 
+
+
+    .rating .select-right {
+        display: none;
+    }    
+    .rating .block_title {
+        width: 100%;
+    }
+    .webinar-online {
+        text-align: start;
+        margin-top: 15px;
+    }
+    .webinar-test_top {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .simulators-new .simulator_items {
+        margin-left: 0px;
+    }
+    .simulators-new .simulator_items > * {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .trainer_items  {
+        margin-left: 0px;
+    }
+    .trainer_items  > * {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+
 }
