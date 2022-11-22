@@ -108,4 +108,41 @@
     align-items: center;
 }
 
+.webinar-online {
+    text-align: end;
+}
+.webinar-online_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #181D47;
+}
+.webinar-online_text span {
+    font-weight: 700;
+    color: #2B315E;
+}
+.modal_btn {
+}
+.webinar-online_link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #178EFF;
+    text-decoration: none;
+    border-bottom: 1px dashed #178EFF;
+}
 
+
+
+
+
+
+
+@media print, (max-width: 767px) {
+    .rating .select-right {
+        display: none !important;
+    }    
+    .rating .block_title {
+        width: 100% !important;
+    }
+}
