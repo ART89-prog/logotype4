@@ -1,0 +1,111 @@
+
+.dialog .message .prompt .btns {
+    flex-direction: row;
+}
+.dialog .next_link {
+    padding: 0;
+}
+.dialog .prompt_text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    padding: 50px;
+    text-align: start;
+    letter-spacing: -.95px;
+}
+.dialog .prompt_text span {
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+    padding: 10px 30px;
+    vertical-align: top;
+    border-radius: 21px;
+    background: #d6dfff;
+}
+.dialog .error_text {
+    color: #ff4d4d;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    display: none;
+    padding: 0 24px;
+    text-align: start;
+}
+.dialog .error_text span {
+    display: inline-block;
+    width: auto;
+    padding: 10px 30px;
+    vertical-align: top;
+    border-radius: 21px;
+    background: rgba(255, 77, 77, .1);
+}
+.dialog .success_text {
+    color: #12a72a;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    display: none;
+    padding: 0 24px;
+    text-align: start;
+    letter-spacing: -.95px;
+}
+.dialog .success_text span {
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+    padding: 10px 30px;
+    vertical-align: top;
+    border-radius: 21px;
+    background: rgba(35, 232, 67, .2);
+}
+.dialog .prompt_title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 18px;  
+    padding: 26px 24px 0;
+}
+.dialog .prompt_text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #3E4755;
+    padding: 0px 24px 0;
+    text-align: start;
+}
+.dialog .prompt_text span {
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+    padding: 10px 30px;
+    vertical-align: top;
+    border-radius: 21px;
+    background: #d6dfff;
+}
+.dialog .head {
+    padding-bottom: 57px;
+}
+.dialog .image_wrap {
+    padding: 26px 24px 69px;
+}
+.dialog .image_wrap .image:after {
+    top: 26px;
+    left: 24px;
+    width: calc(100% - 48px);
+    height: calc(100% - 95px);
+}
+.dialog .next_link .icon {
+    width: 23px;
+    height: 23px;
+}
+.dialog .next_link a {
+    width: 40px;
+    height: 40px;
+    margin-left: 16px;
+}
+.success_text-box {
+    display: flex;
+    align-items: center;
+}
+
+
