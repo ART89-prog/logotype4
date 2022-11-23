@@ -430,7 +430,6 @@
 
 		<section class="modal" id="congratulations_modal">
 			<img data-src="images/ic_congratulations.svg" alt="" class="icon lozad">
-			<!-- <img data-src="images/ic_congratulations2.svg" alt="" class="icon lozad"> -->
 
 			<div class="modal_title">Поздравляем!<br> Вы прошли курс</div>
 
@@ -471,28 +470,28 @@
 				</div>
 			</div>
 			<div class="btns">
-				<a href="/" class="start-modal_next btn">Продолжить</a>
+				<a href="#" class="start-modal_next btn is-close modal_btn" data-content="#reset-modal2">Продолжить</a>
 			</div>
 		</section>
 
 
-		<section class="reset-modal start-modal" id="reset-modal">
+		<section class="reset-modal reset-modal2 start-modal" id="reset-modal2">
 			<svg class="icon"><use xlink:href="images/sprite.svg#ic_warning2"></use></svg>
 			<div class="start-modal_title">Сброс результатов</div>
 			<div class="start-modal_text">Вы действительно хотите сбросить результаты курса?</div>
 			<div class="btns">
-				<a href="/" class="start-modal_prev btn red">Нет, отменить</a>
-				<a href="/" class="start-modal_next btn">Да, сбросить</a>				
+				<a href="#" class="start-modal_prev btn red is-close">Нет, отменить</a>
+				<a href="#" class="start-modal_next btn is-close modal_btn" data-content="#reset-modal3">Да, сбросить</a>				
 			</div>
 		</section>
 
 
-		<section class="reset-modal start-modal" id="reset-modal">
+		<section class="reset-modal reset-modal3 start-modal" id="reset-modal3">
 			<svg class="icon"><use xlink:href="images/sprite.svg#check22"></use></svg>
 			<div class="start-modal_title">Результаты сброшены</div>
 			<div class="start-modal_text">Результаты тестов успешно сброшены. Можете пройти курс заного.</div>
 			<div class="btns">
-				<a href="/" class="start-modal_next btn">К курсу</a>				
+				<a href="course.html" class="start-modal_next btn">К курсу</a>				
 			</div>
 		</section>
 

@@ -17445,6 +17445,7 @@ background: #64C841;
     align-items: center;
     justify-content: center;
     padding: 54px 40px 40px;
+    display: none;
 }
 .start-modal .icon {
     width: 62px;
