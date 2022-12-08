@@ -3,6 +3,16 @@ $(() => {
 	WW = $(window).width()
 
 	//tippy('[data-tippy-content]');
+	$('body').on('change', '.test_data .step input, .test_data .step textarea', function (e) {
+		$(".answer_btn").show();
+	});
+
+	if($(".sortable").length)
+	{
+		sortable('.sortable')[0].addEventListener('sortupdate', function(e) {
+			$(".answer_btn").show();
+		});	
+	}
 
 	$('body').on('click', '.text_block_show_more', function (e) {
 		e.preventDefault()
@@ -87,10 +97,25 @@ $(() => {
 		$(this).toggleClass('open').next().slideToggle(300)
 	})
 
+	if($(".copy").length)
+	{
+		const clipboard =  new ClipboardJS('.copy');
+
+		clipboard.on('success', (e) => {
+			$(e.trigger).addClass('copied')
+
+			setTimeout(() => {
+				$(e.trigger).removeClass('copied')
+			}, 3000)
+
+			e.clearSelection()
+		})
+	}
+
 
 	// Аккордион
 	$('body').on('click', '.accordion .accordion_item .head', function (e) {
-		e.preventDefault()
+		/*e.preventDefault()*/
 
 		const $item = $(this).closest('.accordion_item'),
 			$accordion = $(this).closest('.accordion')
@@ -273,6 +298,7 @@ $(() => {
 	}
 
 	function drawLine(stem, option) {
+		$(".answer_btn").show();
 		var pointA = stem.offset(),
 			pointB = option.offset()
 
@@ -339,6 +365,7 @@ $(() => {
 				$(".options").removeClass("ready")
 			}
 		}
+
 	});
 
 	$(".options li").on("click", function () {
@@ -690,6 +717,13 @@ $(() => {
 			scrollTop: 0
 		}, 1000)
 	})
+
+	var locationHash = window.location.hash
+
+	if (locationHash && $('.faq .accordion').length) {
+		$(locationHash).addClass('active').find('.data').slideDown(300)	
+		$('html, body').stop().animate({ scrollTop: $(locationHash).offset().top }, 1000)
+	}
 
 })
 

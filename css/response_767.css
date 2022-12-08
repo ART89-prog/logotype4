@@ -1879,7 +1879,7 @@
     .dialog .prompt_text, 
     .dialog .error_text, 
     .dialog .success_text {
-        height: 38px;
+       
     }
     .dialog .image_wrap .image:after {
         top: 24px;
@@ -1892,6 +1892,17 @@
     .dialog .success_text {
         padding: 0px 24px;
         margin-bottom: 12px;
+    }
+
+
+    .date_message{
+        line-height: 41px;
+        white-space: nowrap;
+        margin-left: 0;
+    }
+
+     .dialog .head .what_do .btn span{
+        display: none;
     }
 
 
