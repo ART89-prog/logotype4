@@ -17813,6 +17813,17 @@ button.copy span{
 .green .c100 .bar {
     border-color: #5EC62D;
 }
+
+.yellow .c100 .fill {
+    border-color: #E7B025 !important;
+}
+.red .c100 .fill {
+    border-color: #E31818 !important;
+}
+.green .c100 .fill {
+    border-color: #5EC62D !important;
+}
+
 .c100 > span {
     font-weight: 700;
     font-size: 17px;
@@ -17833,6 +17844,7 @@ button.copy span{
     width: 55px;
     line-height: 55px;
 }
+
 
 
 
