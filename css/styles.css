@@ -17802,76 +17802,38 @@ button.copy span{
     background-color: #EBEBEB;
     margin: 0;
 }
-.c100:after {
-    background-color: #fff;
+
+
+.yellow .c100 .bar {
+    border-color: #E7B025;
 }
-
-.mistake_item:nth-child(1) .c100 .bar {
-    border: 5px solid #E7B025;
+.red .c100 .bar {
+    border-color: #E31818;
 }
-
-.mistake_item:nth-child(2) .c100 .bar {
-    border: 5px solid #E31818;
+.green .c100 .bar {
+    border-color: #5EC62D;
 }
-
-.mistake_item:nth-child(3) .c100 .bar {
-    border: 5px solid #5EC62D;
-}
-
-/* .mistake_item:nth-child(1) .c100 .fill {
-    border: 5px solid #E7B025;
-}
-
-.mistake_item:nth-child(2) .c100 .fill {
-    border: 5px solid #E31818;
-}
-
-.mistake_item:nth-child(3) .c100 .fill {
-    border: 5px solid #5EC62D;
-} */
-
-
-.mistake_item:nth-child(1) .c100 > span {
-    color: #E7B025;
+.c100 > span {
     font-weight: 700;
     font-size: 17px;
     width: 55px;
     line-height: 55px;
 }
-.mistake_item:nth-child(1) .c100:hover > span {
-    width: 55px;
-    line-height: 55px;
-    font-size: 25px;
+.yellow .c100 > span {
     color: #E7B025;
 }
-
-.mistake_item:nth-child(2) .c100 > span {
-    color: #E31818;
-    font-weight: 700;
-    font-size: 17px;
-    width: 55px;
-    line-height: 55px;
-}
-.mistake_item:nth-child(2) .c100:hover > span {
-    width: 55px;
-    line-height: 55px;
-    font-size: 25px;
+.red .c100 > span {
     color: #E31818;
 }
-
-.mistake_item:nth-child(3) .c100 > span {
+.green .c100 > span {
     color: #5EC62D;
-    font-weight: 700;
-    font-size: 17px;
-    width: 55px;
-    line-height: 55px;
 }
-.mistake_item:nth-child(3) .c100:hover > span {
-    width: 55px;
-    line-height: 55px;
+.c100:hover > span {
     font-size: 25px;
-    color: #5EC62D;
+    width: 55px;
+    line-height: 55px;
 }
+
 
 
 
