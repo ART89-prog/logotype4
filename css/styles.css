@@ -17818,17 +17818,17 @@ button.copy span{
     border: 5px solid #5EC62D;
 }
 
-.c100.p65 .fill {
+/* .mistake_item:nth-child(1) .c100 .fill {
     border: 5px solid #E7B025;
 }
 
-.c100.p91 .fill {
+.mistake_item:nth-child(2) .c100 .fill {
     border: 5px solid #E31818;
 }
 
-.c100.p43 .fill {
+.mistake_item:nth-child(3) .c100 .fill {
     border: 5px solid #5EC62D;
-}
+} */
 
 
 .mistake_item:nth-child(1) .c100 > span {
