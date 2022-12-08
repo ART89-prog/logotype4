@@ -17780,8 +17780,7 @@ button.copy span{
 
 
 
-.mistake {
-}
+
 .mistake_items {
     display: flex;
     margin-left: -30px;
@@ -17807,60 +17806,74 @@ button.copy span{
     background-color: #fff;
 }
 
-.c100.p65 > span {
-    color: #E7B025;
-    font-weight: 700;
-    font-size: 17px;
-    width: 55px;
-    line-height: 55px;
-}
-.c100.p65:hover > span {
-    width: 55px;
-    line-height: 55px;
-    font-size: 25px;
-    color: #E7B025;
-}
-
-.c100.p91 > span {
-    color: #E31818;
-    font-weight: 700;
-    font-size: 17px;
-    width: 55px;
-    line-height: 55px;
-}
-.c100.p91:hover > span {
-    width: 55px;
-    line-height: 55px;
-    font-size: 25px;
-    color: #E31818;
-}
-
-.c100.p43 > span {
-    color: #5EC62D;
-    font-weight: 700;
-    font-size: 17px;
-    width: 55px;
-    line-height: 55px;
-}
-.c100.p43:hover > span {
-    width: 55px;
-    line-height: 55px;
-    font-size: 25px;
-    color: #5EC62D;
-}
-
-/* .c100.p65 .fill {
+.mistake_item:nth-child(1) .c100 .bar {
     border: 5px solid #E7B025;
-    clip: rect(0em, 0.65em, 1em, 0em);
-} */
-.c100.p91 .fill {
+}
+
+.mistake_item:nth-child(2) .c100 .bar {
     border: 5px solid #E31818;
-    clip: rect(0em, 0.91em, 1em, 0em);
 }
-.c100.p43 .fill {
+
+.mistake_item:nth-child(3) .c100 .bar {
     border: 5px solid #5EC62D;
-    clip: rect(0em, 0.65em, 1em, 0em);
 }
+
+/* .mistake_item:nth-child(1) .c100 .fill {
+    border: 5px solid #E7B025;
+}
+
+.mistake_item:nth-child(2) .c100 .fill {
+    border: 5px solid #E31818;
+}
+
+.mistake_item:nth-child(3) .c100 .fill {
+    border: 5px solid #5EC62D;
+} */
+
+
+.mistake_item:nth-child(1) .c100 > span {
+    color: #E7B025;
+    font-weight: 700;
+    font-size: 17px;
+    width: 55px;
+    line-height: 55px;
+}
+.mistake_item:nth-child(1) .c100:hover > span {
+    width: 55px;
+    line-height: 55px;
+    font-size: 25px;
+    color: #E7B025;
+}
+
+.mistake_item:nth-child(2) .c100 > span {
+    color: #E31818;
+    font-weight: 700;
+    font-size: 17px;
+    width: 55px;
+    line-height: 55px;
+}
+.mistake_item:nth-child(2) .c100:hover > span {
+    width: 55px;
+    line-height: 55px;
+    font-size: 25px;
+    color: #E31818;
+}
+
+.mistake_item:nth-child(3) .c100 > span {
+    color: #5EC62D;
+    font-weight: 700;
+    font-size: 17px;
+    width: 55px;
+    line-height: 55px;
+}
+.mistake_item:nth-child(3) .c100:hover > span {
+    width: 55px;
+    line-height: 55px;
+    font-size: 25px;
+    color: #5EC62D;
+}
+
+
 
 .mistake_item-info {
     margin-left: 21px;
