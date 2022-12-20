@@ -1807,10 +1807,10 @@ aside .menu .sub_menu a.active
 {
     position: relative;
 
-    display: block;
+    display: inline-block;
     overflow: hidden;
 
-    width: 100%;
+    /*width: 100%;*/
     margin-top: 28px;
     margin-bottom: 28px;
 
@@ -9146,6 +9146,7 @@ aside .menu .sub_menu a.active
     transition: background .2s linear;
 
     background: #eaeaea;
+    display: none;
 }
 
 
@@ -13689,6 +13690,24 @@ background: #64C841;
     margin-top: 15px;
 }
 
+.details_item-body-title.mt_20{
+    margin-top: 20px;
+}
+
+.details_item-remarks{
+    background: #F2F1FD;
+    border-radius: 11px;
+    padding: 10px;
+}
+.details_item_title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #605D7D;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
 .details_item-body {
     position: relative;
     padding-top: 15px;
@@ -17032,6 +17051,7 @@ background: #64C841;
     background: #fff;
     display: none;
     min-height: 320px;
+    min-width: 320px;
 }
 .online-modal_title {
     font-weight: 700;
@@ -17232,6 +17252,7 @@ background: #64C841;
     font-weight: 700;
     font-size: 12px;
     line-height: 14px;
+    color: #6C698C;
 }
 .simulators-new .simulator_item-links .icon {
     width: 20px;
@@ -17240,7 +17261,7 @@ background: #64C841;
     flex-shrink: 0;
 }
 .simulators-new .simulator_item-links a:nth-child(1) {
-    color: var(--main_color);
+    color: #6C698C;
 }
 .simulators-new .simulator_item-links a:nth-child(2) {
     color: #6C698C;
@@ -17373,6 +17394,7 @@ background: #64C841;
     letter-spacing: -0.3px;
     color: #7874A3; 
     margin-bottom: 5px;
+    min-height: 38px;
 }
 .inclusion_item-number {
     font-weight: 900;
@@ -17801,6 +17823,7 @@ button.copy span{
     font-size: 55px;
     background-color: #EBEBEB;
     margin: 0;
+    flex-shrink: 0;
 }
 
 
