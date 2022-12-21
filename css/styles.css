@@ -18057,3 +18057,131 @@ button.copy span{
 .detailed_item.active .detailed_item-link-right {
     display: none;
 }
+
+.step_question-number {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #8D91BB;
+    margin-bottom: 10px;
+}
+
+
+
+/* modal-page */
+
+.modal-page {
+    max-width: 376px;
+    padding: 26px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.modal-page_img {
+    margin-top: -69px;    
+    width: 127px;
+    height: 127px;
+}
+.modal-page_img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.modal-page_title {
+    font-weight: 700;
+    font-size: 22.7804px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 17px;
+    color: #000000;
+}
+.modal-page_text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #808080;
+    margin-top: 15px;
+}
+.modal-page_link {
+    width: 100%;
+    height: 53px;
+    background: #0B00D8;
+    border-radius: 71px;
+    padding: 0 18px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 53px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 36px;
+    text-decoration: none;
+}
+.modal-page_list {
+    list-style: none;
+    counter-reset: section;  
+    margin-top: 19px;
+}
+.modal-page_list li {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4E4E4E;
+}
+.modal-page_list li:last-child {
+    margin-bottom: 0;
+}
+.modal-page_list li::before {
+    counter-increment: section;
+    content: counter(section) " ";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #0B00D8;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-right: 12px;
+}
+
+.modal-page_dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 21px;
+}
+.modal-page_dots span {
+    background: #CDE5FA;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.modal-page_dots span.active {
+   background: #0B00D8; 
+}
+
+.modal-page4 .modal-page_img {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    height: 206px;
+}
+.modal-page4 .modal-page_img img {
+    border-radius: 15px;
+}
+
+
