@@ -11275,7 +11275,8 @@ footer .contacts .val a
 }
 
 #video_modal video{
-    max-height: 600px 
+    max-height: 600px;
+    max-width: 1000px;
 }
 
 #video_modal .carousel__button.is-close
@@ -16452,6 +16453,7 @@ background: #64C841;
     margin-left: -44px;
     margin-bottom: -44px;
     flex-wrap: wrap;
+    margin-top: 60px;
 }
 .training-course_items > * {
     width: calc(100%/3 - 44px);
@@ -16466,6 +16468,13 @@ background: #64C841;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
+    top:0;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.training-course_item_mod:hover{
+    top:-10px;
 }
 .training-course_item::before {
     position: absolute;
@@ -16499,6 +16508,10 @@ background: #64C841;
     max-width: 240px;
     text-decoration: none;
     color: #020027;
+}
+
+.training-course_item-title_mod{
+    margin-bottom: 20px;
 }
 .training-course_item-text {
     font-weight: 400;
@@ -17167,6 +17180,7 @@ background: #64C841;
     flex-direction: column;
     position: relative;
     padding-right: 17px;
+    flex-shrink: 0;
 }
 .simulators-new .simulator_item-left:before {
     position: absolute;
@@ -17221,7 +17235,6 @@ background: #64C841;
     line-height: 14px;
     letter-spacing: -0.3px;
     margin-bottom: 8px;
-    max-width: 165px;
     width: 100%;
     text-decoration: none;
     color: #020027;
@@ -18079,6 +18092,7 @@ button.copy span{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    display: none;
 }
 .modal-page_img {
     margin-top: -69px;    
@@ -18209,6 +18223,10 @@ button.copy span{
     fill: var(--main_color);
 }
 
+#modal-page1 .is-close, #modal-page2 .is-close, #modal-page3 .is-close, #modal-page4 .is-close, #modal-page5 .is-close{
+    display: none;
+}
+
 
 
 
@@ -18253,4 +18271,27 @@ button.copy span{
     color: #FFFFFF;
     text-decoration: none;
     display: block;
+}
+.resend_link {
+    display: none;
+}
+.resend_link a{
+    display: block;
+    color: #9699ac;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 20px;
+    text-align: center;
+}
+.resend{
+    color: #9699ac;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 20px;
+    text-align: center;
+    opacity: .8;
+}
+
+.modal-page_img_nomargin{
+    margin-top: 0;
 }
