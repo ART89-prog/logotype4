@@ -18368,7 +18368,7 @@ button.copy span{
     background: var(--main_color);
 }  
 .modal-survey .rating input:hover + label,
-.modal-survey .rating input:checked + label{
+.modal-survey .rating input:checked + label {
     background: var(--main_color);
 }
 
@@ -18397,7 +18397,7 @@ button.copy span{
     color: #fff;
 }  
 .modal-survey .scale input:hover + label,
-.modal-survey .scale input:checked + label{
+.modal-survey .scale input:checked + label {
     background: var(--main_color);
     color: #fff;
 }
@@ -18407,6 +18407,7 @@ button.copy span{
 .rating-wrapper {
     overflow: hidden;
     display: inline-block;
+    margin-left: -23px;
 } 
 .rating-star:hover,
 .rating-star:hover~.rating-star {
@@ -18425,4 +18426,49 @@ button.copy span{
     height: 44px;
     background: url('../images/stars.svg');
     cursor: pointer;
+}
+.rating-star {
+    margin-left: 10px;
+}
+.rating-star:first-child {
+    margin-left: 0px;
+}
+
+
+
+
+.modal-survey textarea {
+    resize: none;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4D4A8D;
+    padding: 16px;
+    background: #FFFFFF;
+    border: 1px solid #4D4A8D;
+    border-radius: 13px;
+    height: 150px;
+    width: 100%;
+}
+.modal-survey4 .modal-survey_text {
+    margin-bottom: 22px;
+}
+.modal-survey4 button {
+    margin-top: 19px;
+}
+
+
+
+
+.modal-survey5_img {
+    margin-bottom: 22px;
+    width: 94px;
+    height: 102px;
+}
+.modal-survey5 .modal-survey_title {
+    margin-bottom: 7px;
+}
+.modal-survey5 .modal-survey_text {
+    margin-bottom: 0px;
 }
