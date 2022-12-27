@@ -18300,6 +18300,7 @@ button.copy span{
 
 /* modal-survey */
 .modal-survey {
+    display: none;
     background: #FFFFFF;
     border-radius: 30px;
     padding: 34px;
@@ -18331,7 +18332,7 @@ button.copy span{
     border-radius: 50%;
     background: #E3E1F1;
 }
-.modal-survey button {
+.modal-survey_btn {
     margin-top: 29px;
     background: var(--main_color);
     border-radius: 53px;
@@ -18372,6 +18373,35 @@ button.copy span{
     background: var(--main_color);
 }
 
+.modal-survey .carousel__button.is-close {
+    margin-top: 0;
+    top: 10px;
+    right: 10px;
+    background: #CECBE4;
+}
+.modal-survey5 .carousel__button.is-close {
+    display: none;
+}
+
+.survey-modal_btn-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.survey-modal_btn {
+    margin-top: 29px;
+    background: var(--main_color);
+    border-radius: 53px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 53px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    width: 230px;
+    display: block;
+    text-decoration: none;
+}
 
 .scale {
     display: flex;
