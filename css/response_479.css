@@ -948,6 +948,19 @@
     }
 
 
+    .webinar-top_item-name {
+        font-weight: 400;
+        font-size: 10.3997px;
+        line-height: 100.5%;
+        color: #181D47;
+        padding: 7px 7px 8px;
+    }
+    .webinar-top_item-name span {
+        margin-top: 0;
+        margin-right: 7px;
+    }
+
+
 
 
 }
