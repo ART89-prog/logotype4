@@ -1958,7 +1958,14 @@
         padding: 17px 150px;
     }
 
+    .line-top_flex_start .cont{
+       align-items: center;
+    }
 
-
-
+    .top_line_link{
+        white-space: inherit;
+        height: auto;
+        line-height: initial;
+        padding: 5px 12px;
+    }
 }

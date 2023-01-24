@@ -395,27 +395,6 @@
     }
 
 
-    .webinar-top_items {
-        display: flex;
-        margin-left: -12px;
-        margin-bottom: -13px;
-        flex-wrap: wrap;
-    }
-    .webinar-top_items > * {
-        width: calc(100%/3 - 12px);
-        margin-left: 12px;
-        margin-bottom: 13px;
-        background: #FFFFFF;
-        border-radius: 5px;
-    }
-    .webinar-top_item-photo {
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-    }
-
-
-
-
 
 
 }
