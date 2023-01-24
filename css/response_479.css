@@ -960,18 +960,31 @@
         margin-left: 0;
     }
 
+    .task2 .task_items {
+        margin-left: 0;
+    }
     .task2 .task_items > * {
         width: 100%;
         margin-left: 0;
     }
 
+    .task3 .task_items {
+        margin-left: 0;
+    }
     .task3 .task_items > * {
         width: 100%;
         margin-left: 0;
     }
 
+    .task4 .task_items {
+        margin-left: 0;
+    }
     .task4 .task_items > * {
         width: 100%;
+        margin-left: 0;
+    }
+
+    .task5 .task_items {
         margin-left: 0;
     }
 

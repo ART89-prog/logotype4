@@ -18764,7 +18764,7 @@ button.copy span{
 }
 .task_item a {
     text-decoration: none;
-    background: #0B00D8;
+    background: var(--main_color);
     border-radius: 15px;
     width: 70px;
     height: 27px;
@@ -18844,7 +18844,7 @@ button.copy span{
     width: 13px;
     height: 13px;
     border-radius: 50%;
-    background: #0800c7;
+    background: var(--main_color);
 }
 .task_radio input:checked + label .name:after {
     opacity: 1;
@@ -18892,7 +18892,7 @@ button.copy span{
     color: #777777;
 }
 .task_radio button {
-    background: #0B00D8;
+    background: var(--main_color);
     border-radius: 15px;
     width: 89px;
     height: 28px;
