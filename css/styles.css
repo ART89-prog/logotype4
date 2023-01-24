@@ -18629,7 +18629,7 @@ button.copy span{
     white-space: nowrap;
 }
 
-
+      
 .icon_top_line{
     width: 28px;
     height: 28px;
@@ -18670,7 +18670,7 @@ button.copy span{
     justify-content: space-between;
     background: #E4E2FB;
     border-radius: 13px;
-    padding: 13px;
+    padding: 12px;
     margin: 20px 24px 0;
 }
 .audio_training-left {
@@ -18687,7 +18687,7 @@ button.copy span{
 }
 .audio_training .audio_message {
     width: 570px;
-    padding: 14px;
+    padding: 12px;
     background: #fff;
     border-radius: 9px;
 }

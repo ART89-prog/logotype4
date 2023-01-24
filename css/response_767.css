@@ -1968,4 +1968,18 @@
         line-height: initial;
         padding: 5px 12px;
     }
+
+    .audio_training {
+        flex-direction: column;
+    }
+    .audio_training-left {
+        margin-bottom: 20px;
+    }
+    .audio_training .audio_message {
+        width: 100%;
+    }
+
+
+
+
 }
