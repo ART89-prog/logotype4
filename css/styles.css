@@ -18661,3 +18661,43 @@ button.copy span{
     justify-content: center;
     max-width: 95%;
 }
+
+
+
+.audio_training {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #E4E2FB;
+    border-radius: 13px;
+    padding: 13px;
+    margin: 20px 24px 0;
+}
+.audio_training-left {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.audio_training-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #6870A9;
+    margin-left: 20px;
+}
+.audio_training .audio_message {
+    width: 570px;
+    padding: 14px;
+    background: #fff;
+    border-radius: 9px;
+}
+.audio_training .audio_media {
+    
+}
+.audio_training .icon {
+    color: var(--text_color);
+    display: block;
+    width: 33px;
+    height: 33px;   
+    flex-shrink: 0;
+}
