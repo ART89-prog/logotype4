@@ -19218,5 +19218,125 @@ button.copy span{
     line-height: 30px;
     width: 118px;
 }
-.form_btns .modal_btn {
+
+
+.answer-option .data {
+    padding: 26px 16px;
+}
+.dialog .prompt_title {
+    padding: 26px 0 0;
+}
+.answer-option .dialog .head {
+    padding: 0 0 87px !important;
+    /* padding-bottom: 87px; */
+}
+.answer-option .dialog .prompt_text {
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+    padding: 0;
+    vertical-align: top;
+    border-radius: 21px;
+    background: rgba(74, 118, 233, 0.33);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #6677A4;
+}
+.answer-option .dialog .error_text {
+    color: #DE1E29;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    display: none;
+    padding: 0;
+    text-align: start;
+    border-radius: 21px;
+}
+.answer-option .dialog .success_text {
+    color: #47BF41;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    display: none;
+    padding: 0;
+    text-align: start;
+    border-radius: 21px;
+}
+.answer-option_items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -26px;
+    margin-bottom: -24px;
+    padding-bottom: 27px;
+}
+.answer-option_items > * {
+    width: calc(100%/3 - 26px);
+    margin-left: 26px;
+    margin-bottom: 24px;
+}
+.answer-option_items label {
+    cursor: pointer;
+}
+.answer-option_items .thumb {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 12px;
+    padding-bottom: 70.18%;
+    border-radius: 20px;
+    border: 5px solid transparent;
+    transition: all .5s;
+}
+.answer-option_items .thumb img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.answer-option_items label .name {
+    padding: 11px 19px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #64698F;
+    background: #DFDEE8;
+    border-radius: 7px;
+    min-height: 54px;
+    transition: all .5s;
+}
+.answer-option_items label.success .thumb {
+    border: 5px solid #47BF41;
+}
+.answer-option_items label.success .name {
+    background: #47BF41;
+    color: #FFFFFF;
+}
+.answer-option_items label.error .thumb {
+    border: 5px solid #DE1E29;
+}
+.answer-option_items label.errop .name {
+    background: #DE1E29;
+    color: #FFFFFF;
+}
+.answer-option_items label:hover .thumb {
+    border: 5px solid var(--main_color);
+}
+.answer-option_items label:hover .name {
+    background: var(--main_color);
+    color: #FFFFFF;
+}
+.answer-option button {
+    width: 104px;
+    height: 38px;
+    background: var(--main_color);
+    border-radius: 41px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-align: center;
 }
