@@ -18973,3 +18973,250 @@ button.copy span{
 .task5 .task_item-text {
     width: calc(100% - 85px);
 }
+
+
+
+
+.modal-page6 {
+    max-width: 699px;
+    width: 100%;
+    padding: 24px 20px 25px;
+    justify-content: flex-start;
+    align-items: flex-start;    
+    border-radius: 15px;
+}
+.modal-page6 .modal-page_title {
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px; 
+    margin-bottom: 23px;
+    text-align: start;
+    margin-top: 0;
+    width: 90%;
+}
+.modal-page6 form {
+    position: relative;
+    padding-bottom: 19px;
+    padding-top: 16px;
+    width: 100%;
+}
+.modal-page6 form:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 40px);
+    height: 1px;
+    background: #EBEBEB;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+.modal-page6 form:after {
+    position: absolute;
+    content: "";
+    width: calc(100% + 40px);
+    height: 1px;
+    background: #EBEBEB;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+}
+.modal-page6 form .line {
+    display: flex;
+}
+.modal-page6 form .field {
+    display: flex;
+    align-items: center;
+}
+.modal-page6 form .field label {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;    
+    color: #605CA9;    
+    opacity: 0.8;
+    margin-right: 15px;
+}
+.modal-page6 form .field input {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: #777777;
+    width: 37px;
+    height: 29px;
+    background: #FFFFFF;
+    border: 1px solid #C2CDDF;
+    border-radius: 5px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    text-align: center;
+    margin-right: 20px;
+}
+.modal-page6 .modal-page_link {
+    width: 85px;
+    height: 30px;
+    background: var(--main_color);
+    padding: 0 7px;
+    font-size: 12px;
+    line-height: 30px;
+    margin-top: 19px;
+}
+
+
+
+.form_title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.form_title span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;    
+    color: #000000;    
+    opacity: 0.8;   
+    margin-right: 13px;
+    display: block;
+}
+.choose-link {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12px;    
+    color: #0583DF;  
+    margin-right: 9px;
+    text-decoration: none;
+    border-bottom: 1px dashed #0583DF;
+}
+.remove-link {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12px;
+    color: #CE2D4A;
+    text-decoration: none;
+    border-bottom: 1px dashed #CE2D4A;
+}
+.modal-page6 .form_list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.modal-page6 .form_list li {
+    padding: 6px 10px 6px 7px;
+    background: #E7E5FE;
+    border-radius: 13px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.modal-page6 .form_list li:last-child {
+    margin-bottom: 0;
+}
+.modal-page6 .form_list input[type=checkbox] {
+    display: none;
+    opacity: 0;
+}
+.modal-page6 .form_list label.checkbox {
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;    
+    color: #7B78BA;
+    position: relative;
+
+    padding-left: 27px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+}
+.modal-page6 .form_list label.checkbox:before {
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    display: inline-block;
+    content: '';
+    transition: .2s linear;
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 14px;
+    height: 14px;
+}
+.modal-page6 .form_list label.checkbox:after {
+    position: absolute;
+    top: 4px;
+    left: 6px;
+    display: block;
+    width: 9px;
+    height: 5px;
+    content: '';
+    transition: opacity .2s linear;
+    transform: rotate(-45deg);
+    opacity: 0;
+    border-bottom: 1.5px solid var(--main_color);
+    border-left: 1.5px solid var(--main_color);
+}
+.modal-page6 .form_list input[type=checkbox]:checked + label.checkbox:after {
+    opacity: 1;
+}
+.form_item {
+    padding-top: 15px;
+    padding-bottom: 24px;
+    position: relative;
+}
+.form_item:before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 40px);
+    height: 1px;
+    background: #EBEBEB;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+.form_item:after {
+    position: absolute;
+    content: "";
+    width: calc(100% + 40px);
+    height: 1px;
+    background: #EBEBEB;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+}
+.modal-page6.modal-page7 form {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.modal-page6.modal-page7 form::after {
+    display: none;
+}
+.modal-page6.modal-page7 form::before {
+    display: none;
+}
+.form_btns {
+    display: flex;
+    align-items: center;
+}
+.modal-page6.modal-page7 .modal-page_link.modal-page_link3 {
+    display: block;
+    padding: 0px 13px;
+    line-height: 30px;
+    width: 65px;
+    background: #ECEBF5;
+    color: #64698F;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.form_btns .modal-page_link.modal-page_link2 {
+    padding: 0px 13px;
+    display: block;
+    line-height: 30px;
+    width: 118px;
+}
+.form_btns .modal_btn {
+}
