@@ -19429,11 +19429,12 @@ button.copy span{
 }
 
 
-label.answer-error .name {
+
+.answer-question_items input:checked + label.answer-error .name {
     background: #DE1E29;
     color: #fff;
 }
-label.answer-sucess .name {
+.answer-question_items input:checked + label.answer-sucess .name {
     background: #47BF41;
     color: #fff;
 }
