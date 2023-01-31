@@ -17047,6 +17047,7 @@ background: #64C841;
 .dialog .next_link2 .icon {
     width: 23px;
     height: 23px;
+    display: block;
 }
 .dialog .next_link2 a {
     width: 40px;
@@ -19234,7 +19235,6 @@ button.copy span{
     padding: 0;
     vertical-align: top;
     border-radius: 21px;
-    background: rgba(74, 118, 233, 0.33);
     font-weight: 500;
     font-size: 14px;
     line-height: 130%;
@@ -19315,7 +19315,7 @@ button.copy span{
 .answer-option_items label.error .thumb {
     border: 5px solid #DE1E29;
 }
-.answer-option_items label.errop .name {
+.answer-option_items label.error .name {
     background: #DE1E29;
     color: #FFFFFF;
 }
@@ -19326,6 +19326,15 @@ button.copy span{
     background: var(--main_color);
     color: #FFFFFF;
 }
+
+.answer-option_items input:checked + label .name {
+    background: var(--main_color);
+    color: #fff;
+}
+.answer-option_items input:checked + label .thumb {
+    border: 5px solid var(--main_color);
+}
+
 .answer-option_btn {
     width: 104px;
     height: 38px;
@@ -19437,4 +19446,16 @@ button.copy span{
 .answer-question_items input:checked + label.answer-sucess .name {
     background: #47BF41;
     color: #fff;
+}
+
+.answer-option .dialog .prompt_text, 
+.answer-option .dialog .success_text, 
+.answer-option .dialog .error_text {
+    display: block;
+}
+.answer-option .dialog .next_link2 a {
+    width: 23px;
+    height: 23px;
+    display: block;
+    margin-left: 16px;
 }
