@@ -19400,6 +19400,11 @@ button.copy span{
     justify-content: space-between;
     padding: 26px 24px 26px;
 }
+.answer-question_images2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 24px 26px;
+}
 .answer-question_images .thumb {
     position: relative;
     width: 49%;    
@@ -19409,7 +19414,26 @@ button.copy span{
     height: auto;
     border-radius: 14px;  
 }
+.answer-question_images2 .thumb {
+    position: relative;
+    width: 100%;    
+}
+.answer-question_images2 .thumb img {
+    width: 100%;
+    height: auto;
+    border-radius: 14px;  
+}
 .answer-question_items {
     padding: 10px 24px 22px;
     margin-top: 20px;
+}
+
+
+label.answer-error .name {
+    background: #DE1E29;
+    color: #fff;
+}
+label.answer-sucess .name {
+    background: #47BF41;
+    color: #fff;
 }
